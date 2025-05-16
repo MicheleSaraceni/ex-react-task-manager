@@ -4,9 +4,9 @@ import HeaderComponent from "./HeaderComponent"
 export default function DefaultLayout() {
 
     return (
-        <>
+        <main>
             <HeaderComponent />
             <Outlet />
-        </>
+        </main>
     )
 }
